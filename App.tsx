@@ -10,7 +10,7 @@ import { initializeGemini, generateEmailBody } from './services/geminiService';
 
 // User-provided Google Client ID, hardcoded as per request.
 // Standard practice is to use process.env.GOOGLE_CLIENT_ID for better flexibility and security.
-const GOOGLE_CLIENT_ID = "1069535770551-4bgihvoot1h0ap38n193j0bi57r4aa5b.apps.googleusercontent.com"; // Replace with your own Client ID if this one doesn't work 
+const GOOGLE_CLIENT_ID = "1069535770551-4bgihvoot1h0ap38n193j0bi57r4aa5b.apps.googleusercontent.com"; 
 const GMAIL_SEND_SCOPE = 'https://www.googleapis.com/auth/gmail.send';
 
 declare global {
